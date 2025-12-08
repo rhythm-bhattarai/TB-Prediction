@@ -7,3 +7,6 @@ models/bp_neural_network_model.pkl filter=lfs diff=lfs merge=lfs -text
 models/random_forest_model.pkl filter=lfs diff=lfs merge=lfs -text
 models/svr_model.pkl filter=lfs diff=lfs merge=lfs -text
 models/scaler.pkl filter=lfs diff=lfs merge=lfs -text
+/data.processed/*.csv filter=lfs diff=lfs merge=lfs -text
+/data.processed/*.txt filter=lfs diff=lfs merge=lfs -text
+/data/processed/*.csv filter=lfs diff=lfs merge=lfs -text
