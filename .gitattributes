@@ -1,3 +1,7 @@
+data/monthly/*.csv filter=lfs diff=lfs merge=lfs -text
+
+data/processed/for_binary/*.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/for_continuous/*.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/tb_data_processed.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/tb_data_cleaned.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/tb_data_reduced.csv filter=lfs diff=lfs merge=lfs -text
